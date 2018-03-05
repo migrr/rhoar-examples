@@ -1,0 +1,23 @@
+= RHOAR example - Spring Boot
+
+IMPORTANT: This demo requires Java 8 JDK or greater and Maven 3.3.x or greater.
+
+== Step by step for your Spring Boot Demo configuration and deployment.
+- Fork the repository to your Git Hub account.
+
+To deploy your booster to a running OpenShift cluster:
+
+- Go to your Openshift 3.7 catalog and choose Red Hat OpenJDK 8 
+
+- In the BUILDER JAVA OPENJDK it's important that you select the correct folder into the respository in the advanced options -> Context Dir -> catalog-spring-boot
+
+- The only thing you have to do to finish with the BUILDER JAVA OPENJDK is to push "Next".
+
+- When pushing next, the building proccess will start. You will see in the Openshift log that the pom file will be detected and automatically, it will download the required libraries for the project.
+
+
+It may look like a very simple process but in this case what you don't see is the work behind this, which is the deployment of the app. 
+
+If you'd like to go to through a more complete deployment of a Spring Boot app go to one of my repositories and follow the instrucitons:
+
+https://github.com/migrr/mission-springboot
