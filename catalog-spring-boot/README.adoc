@@ -20,4 +20,4 @@ It may look like a very simple process but in this case what you don't see is th
 
 If you'd like to go to through a more complete deployment of a Spring Boot app go to one of my repositories and follow the instrucitons:
 
-https://github.com/migrr/mission-springboot
+https://github.com/migrr/springboot-mission
